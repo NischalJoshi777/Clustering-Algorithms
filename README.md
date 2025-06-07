@@ -61,7 +61,7 @@ The dataset includes:
  Cluster centers as averages (means) are meaningful.
 
 
-# K-Medoids is better when:
+###K-Medoids is better when:
  The dataset contains a lot of outliers or noise, since medoids are actual points and are less affected by them.
  An interpretable cluster centers that relate to real data points is required.
  The distance measure is non-Euclidean, or the mean is not meaningful e.g., for categorical data
