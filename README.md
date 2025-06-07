@@ -61,7 +61,7 @@ The dataset includes:
  Cluster centers as averages (means) are meaningful.
 
 
-###K-Medoids is better when:
+### K-Medoids is better when:
  The dataset contains a lot of outliers or noise, since medoids are actual points and are less affected by them.
  An interpretable cluster centers that relate to real data points is required.
  The distance measure is non-Euclidean, or the mean is not meaningful e.g., for categorical data
@@ -75,6 +75,11 @@ The dataset includes:
     * **Solution**: Setting up the ccore=False in the kmedoids function to force use of the pure Python implementation helped in avoiding compilation issues and ensuring compatibility on macOS.
 
 2. **Visualization Complexity**:
+
    * **Challenge**: Visualizing 13-dimensional data meaningfully was very challenging
    * **Solution**: Implemented PCA to reduce the dimensionalitywhile preserving cluster structure
+  
+ <img width="826" alt="Screenshot 2025-06-07 at 7 52 41 AM" src="https://github.com/user-attachments/assets/56a1ce75-2c4a-4d41-9c86-36e42666841f" />
+
+ 
 
